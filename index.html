@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Filmes</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+</head>
+<body>
+    <div class="container g-0">
+        <header id="cabecalho" class="g-0">
+            <div class="navbar navbar-expand-lg">
+                    <h1>Portal de Filmes</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav nav-pills navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#novos">Novos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#acao">Ação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#romance">Romance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aventura">Aventura</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/2398354/pexels-photo-2398354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/1040159/pexels-photo-1040159.jpeg"/>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <section id="novos">
+            <div class="row g-0">
+                <div class="col g-0 w-100">
+                    <h3>Novos</h3>
+                </div>
+            </div>
+            <div class="row w-100 g-0 lista">
+                <div class="card col-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889335932-3030fa378fcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1601513445498-5dbffc8d5d5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889175123-8ee362201f81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGZpbG1lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                
+            </div>
+        </section>
+        <section id="acao">
+            <div class="row g-0">
+                <div class="col g-0 w-100">
+                    <h3>Ação</h3>
+                </div>
+            </div>
+            <div class="row w-100 g-0 lista">
+                <div class="card col-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889335932-3030fa378fcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1601513445498-5dbffc8d5d5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889175123-8ee362201f81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGZpbG1lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div> 
+            </div>
+        </section>
+        <section id="romance">
+            <div class="row g-0">
+                <div class="col g-0 w-100">
+                    <h3>Romance</h3>
+                </div>
+            </div>
+            <div class="row w-100 g-0 lista">
+                <div class="card col-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889335932-3030fa378fcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1601513445498-5dbffc8d5d5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889175123-8ee362201f81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGZpbG1lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div> 
+            </div>
+        </section>
+        <section id="aventura">
+            <div class="row g-0">
+                <div class="col g-0 w-100">
+                    <h3>Aventura</h3>
+                </div>
+            </div>
+            <div class="row w-100 g-0 lista">
+                <div class="card col-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889335932-3030fa378fcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1601513445498-5dbffc8d5d5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-body" src="https://images.unsplash.com/photo-1608889175123-8ee362201f81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGZpbG1lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+                    <h4 class="card-title">Titulo da postagem</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae eius aspernatur vero earum deleniti laborum sint dolorum voluptatibus ad, reprehenderit blanditiis officiis quis mollitia minus neque. Velit, cupiditate maiores.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Assistir</button>
+                </div> 
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

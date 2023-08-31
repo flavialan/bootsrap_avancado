@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1036px;
+    width: 100%;
+}
+
+
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-item img{
+    align-items: center;
+}
+
+header{
+    background-color: rgb(99, 99, 170);
+    color: #0f0233;
+    align-items: center;
+    padding: 16px;
+}
+
+.container .nav-link{
+    color: #0f0233;
+    text-align: center;
+}
+
+.container .navbar-nav .nav-link.active{
+    color: #fff;
+    background-color: rgb(17, 5, 44);
+}
+
+section{
+    width: 100%;
+}
+
+section img{
+    height: 319.98px;
+    width: 319.98px;
+    margin: 0 auto;
+}
+
+
+#novos .card{
+    background-color: rgb(178, 178, 216);
+}
+
+.container #novos .col h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #0f0233;
+    border-bottom: rgb(99, 99, 170) solid 4px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.container .card{
+    border: none;
+    border-radius: 0;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+
+.container #novos .card-title{
+    text-align: center;
+    color: #0f0233;
+}
+
+#novos .card-text{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    color: #0f0233;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.container #novos .btn-primary{
+    background-color: #0f0233;
+    border-color: #0f0233;
+    color: #fff;
+    align-items: center;
+}
+
+.btn-group-sm>.btn, .btn-sm{
+    padding: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#acao .card{
+    background-color: rgb(168, 68, 68);
+}
+
+.container #acao .col h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #330505;
+    border-bottom: rgb(99, 33, 33) solid 4px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.container #acao .card-title{
+    text-align: center;
+    color: #330505;
+}
+
+.container #acao .btn-primary{
+    background-color: #330505;
+    border-color: #330505;
+    color: #fff;
+    align-items: center;
+}
+
+#acao .card-text{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    color: #330505;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+#romance .card{
+    background-color: rgb(199, 29, 100);
+}
+
+.container #romance .col h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #2e0221;
+    border-bottom: rgb(199, 29, 100) solid 4px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.container #romance .card-title{
+    text-align: center;
+    color:#2e0221;
+}
+
+#romance .card-text{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    color: #2e0221;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.container #romance .btn-primary{
+    background-color:#2e0221;
+    border-color: #2e0221;
+    color: #fff;
+    align-items: center;
+}
+
+#aventura .card{
+    background-color: rgb(86, 184, 116);
+}
+
+.container #aventura .col h3{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #011108;
+    border-bottom: rgb(20, 116, 44) solid 4px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.container #aventura .card-title{
+    text-align: center;
+    color:#011108;
+}
+
+.container #aventura .btn-primary{
+    background-color: rgb(20, 116, 44);
+    border-color: rgb(20, 116, 44);
+    color: #fff;
+    align-items: center;
+}
+
+#aventura .card-text{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    color: #011108;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 640px){
+    .container{
+        display: block;
+        max-width: 90%;
+        position: relative;
+    }
+
+    body{
+        margin: 0 auto;
+    }
+    
+    .carousel-inner {
+        height: 200px;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    section .card{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .container #novos .col h3{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .container{
+        display: block;
+        max-width: 90%;
+        position: relative;
+    }
+
+    .container header h1, section .col h3{
+        font-size: 2.5em;
+    }
+
+    .container a, .card-title, .container section .btn-primary{
+        font-size: 1.5em;
+    }
+
+    .card-text{
+        font-size: 1.15em;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    section .card{
+        width: 100%;
+    }
+
+    .container #novos .col h3{
+        margin-top: 20px;
+    }
+
+    section .lista{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%; 
+    }
+
+    section .card{
+        margin-bottom: 8px;
+    }
+
+    section img{
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+    }
+}
+
